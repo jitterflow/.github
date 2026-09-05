@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 32 32">
+  <title>Jitterflow</title>
+  <defs>
+    <linearGradient id="jf-mark-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06211d" />
+      <stop offset="100%" stop-color="#12988c" />
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="7" fill="url(#jf-mark-grad)" />
+  <rect x="9" y="16" width="3.4" height="9" rx="1.7" fill="#eafbf6" />
+  <rect x="14.3" y="7" width="3.4" height="18" rx="1.7" fill="#eafbf6" />
+  <rect x="19.6" y="11.5" width="3.4" height="13.5" rx="1.7" fill="#eafbf6" />
+</svg>

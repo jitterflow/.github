@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 356" width="640" height="356" role="img" aria-labelledby="jfTitle">
+  <title id="jfTitle">Jitterflow smooths raw, jittery webhook delivery into a steady, rate-limit-safe stream</title>
+  <defs>
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#102636"/>
+      <stop offset="65%" stop-color="#0a1622"/>
+      <stop offset="100%" stop-color="#0a1622"/>
+    </linearGradient>
+    <style>
+      .jf-dot { animation: jfPulse 1.7s infinite; transform-origin: center; }
+      @keyframes jfPulse { 0%, 100% { opacity: 1; } 50% { opacity: .25; } }
+      .jf-raw { stroke-dasharray: 100; stroke-dashoffset: 0; animation: jfJitter 2.6s steps(15) infinite; }
+      @keyframes jfJitter { 0% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -100; } }
+      @media (prefers-reduced-motion: reduce) {
+        .jf-dot, .jf-raw { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="639" height="355" rx="16" fill="url(#cardBg)" stroke="#1f3a48"/>
+
+  <text x="24" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11"
+        letter-spacing="1" fill="#7f97a1">DELIVERY JITTER — CHECKOUT.ACME.IO</text>
+  <circle class="jf-dot" cx="559" cy="36" r="4" fill="#12988c"/>
+  <text x="570" y="40" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11"
+        letter-spacing="1" fill="#12988c">LIVE</text>
+
+  <rect x="24" y="56" width="592" height="222" rx="6" fill="#071119"/>
+  <g transform="translate(24,56) scale(1.48)">
+    <g stroke="#16303c" stroke-width="0.7">
+      <line x1="0" y1="18.75" x2="400" y2="18.75"/>
+      <line x1="0" y1="37.5" x2="400" y2="37.5"/>
+      <line x1="0" y1="56.25" x2="400" y2="56.25"/>
+      <line x1="0" y1="75" x2="400" y2="75"/>
+      <line x1="0" y1="93.75" x2="400" y2="93.75"/>
+      <line x1="0" y1="112.5" x2="400" y2="112.5"/>
+      <line x1="0" y1="131.25" x2="400" y2="131.25"/>
+      <line x1="25" y1="0" x2="25" y2="150"/>
+      <line x1="50" y1="0" x2="50" y2="150"/>
+      <line x1="75" y1="0" x2="75" y2="150"/>
+      <line x1="100" y1="0" x2="100" y2="150"/>
+      <line x1="125" y1="0" x2="125" y2="150"/>
+      <line x1="150" y1="0" x2="150" y2="150"/>
+      <line x1="175" y1="0" x2="175" y2="150"/>
+      <line x1="200" y1="0" x2="200" y2="150"/>
+      <line x1="225" y1="0" x2="225" y2="150"/>
+      <line x1="250" y1="0" x2="250" y2="150"/>
+      <line x1="275" y1="0" x2="275" y2="150"/>
+      <line x1="300" y1="0" x2="300" y2="150"/>
+      <line x1="325" y1="0" x2="325" y2="150"/>
+      <line x1="350" y1="0" x2="350" y2="150"/>
+      <line x1="375" y1="0" x2="375" y2="150"/>
+    </g>
+    <path class="jf-raw" d="M0,10 L14,133 L28,23 L42,121 L56,35 L70,109 L84,46 L98,99 L112,56 L126,90 L140,64 L154,82 L168,71 L182,77 L196,75"
+          pathLength="100" fill="none" stroke="#d1550f" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <path d="M196,75 L400,75" fill="none" stroke="#12988c" stroke-width="1.7" stroke-linecap="round"
+          style="filter: drop-shadow(0 0 4px rgba(18,152,140,0.65))"/>
+    <circle cx="196" cy="75" r="2" fill="#0a1622" stroke="#12988c" stroke-width="1.4"/>
+  </g>
+
+  <rect x="24" y="302" width="14" height="3" rx="1.5" fill="#d1550f"/>
+  <text x="44" y="309" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#9db0b8">Raw delivery</text>
+  <text x="616" y="309" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="12" font-weight="600" fill="#eafbf6">±340ms jitter · 429s</text>
+
+  <rect x="24" y="326" width="14" height="3" rx="1.5" fill="#12988c"/>
+  <text x="44" y="333" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" fill="#9db0b8">Through Jitterflow</text>
+  <text x="616" y="333" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, monospace"
+        font-size="12" font-weight="600" fill="#eafbf6">±6ms jitter · 0 drops</text>
+</svg>

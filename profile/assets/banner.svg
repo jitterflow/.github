@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="jfBannerTitle">
+  <title id="jfBannerTitle">Jitterflow — Stop 429s on your outbound webhooks</title>
+  <defs>
+    <linearGradient id="markGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06211d"/>
+      <stop offset="100%" stop-color="#12988c"/>
+    </linearGradient>
+    <clipPath id="bannerClip">
+      <rect width="1280" height="400" rx="0"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1280" height="400" fill="#eef2f3"/>
+
+  <g clip-path="url(#bannerClip)" opacity="0.08" fill="#12988c">
+    <g transform="translate(900,-260) scale(13)">
+      <rect x="9" y="16" width="3.4" height="9" rx="1.7"/>
+      <rect x="14.3" y="7" width="3.4" height="18" rx="1.7"/>
+      <rect x="19.6" y="11.5" width="3.4" height="13.5" rx="1.7"/>
+    </g>
+  </g>
+
+  <g transform="translate(64,48) scale(1.75)">
+    <rect width="32" height="32" rx="7" fill="url(#markGrad)"/>
+    <rect x="9" y="16" width="3.4" height="9" rx="1.7" fill="#eafbf6"/>
+    <rect x="14.3" y="7" width="3.4" height="18" rx="1.7" fill="#eafbf6"/>
+    <rect x="19.6" y="11.5" width="3.4" height="13.5" rx="1.7" fill="#eafbf6"/>
+  </g>
+  <text x="134" y="88" font-family="ui-sans-serif, system-ui, sans-serif" font-size="32" font-weight="800"
+        fill="#0c1b22">Jitter<tspan fill="#0e7a72">flow</tspan></text>
+
+  <text x="64" y="140" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13"
+        letter-spacing="2" fill="#12988c">WEBHOOK DELIVERY INFRASTRUCTURE</text>
+
+  <text font-family="ui-sans-serif, system-ui, sans-serif" font-size="44" font-weight="800" fill="#0c1b22">
+    <tspan x="64" y="192">Stop 429s on your outbound</tspan>
+    <tspan x="64" y="244">webhooks</tspan>
+  </text>
+
+  <text font-family="ui-sans-serif, system-ui, sans-serif" font-size="17" fill="#55666c">
+    <tspan x="64" y="286">Jittered delivery, per-destination isolation, and a real dead-letter</tspan>
+    <tspan x="64" y="311">queue — so a burst never trips a rate limit and a failure never</tspan>
+    <tspan x="64" y="336">disappears.</tspan>
+  </text>
+</svg>
