@@ -51,7 +51,7 @@ That's it — no infrastructure to run, no queue to manage. Jitterflow paces
 the delivery, retries on failure, and keeps a dead-letter queue for
 anything that doesn't make it.
 
-**[Get started free →](https://jitterflow.io)**
+**[Get started free →](https://jitterflow.io/signup)** The Developer plan is free with no end date and never asks for a card.
 
 <sub>Your API key is shown once and never stored in plaintext — only its
 bcrypt hash is kept. Rotating it gives your old key a 24-hour grace window,
@@ -76,11 +76,25 @@ or revoke it instantly if it was exposed.</sub>
 | Resource | What's there |
 |---|---|
 | **[Documentation](https://jitterflow.io/docs)** | Quickstart, API reference, and integration guides |
-| **[Pricing](https://jitterflow.io/pricing)** | Free Developer plan (5K webhooks/mo, no credit card) up to 10M/mo on Enterprise |
+| **[Pricing](https://jitterflow.io/pricing)** | Free Developer plan with no end date (10,000 webhooks/mo, 3 endpoints, no card). Paid plans from $19 up to 10M/mo on Scale |
 | **[n8n integration](https://jitterflow.io/integrations/n8n)** | Send and manage delivery from inside a workflow |
-| **[Jitter Calculator](https://jitterflow.io/tools/jitter-calculator)** | Estimate the delay window you'd need for your own rate limits |
+| **[Compare](https://jitterflow.io/compare)** | Jitterflow vs Svix, Hookdeck and Convoy, every claim sourced |
 | **[Changelog](https://jitterflow.io/changelog)** | What shipped, and when |
 | **[Status](https://jitterflow.io/status)** | Live uptime and incident history |
+
+<br />
+
+## 🧰 Free tools, no login
+
+| Tool | What it does |
+|---|---|
+| **[Rate limits directory](https://jitterflow.io/limits)** | Published API and webhook rate limits for 33 services, with a pacing calculator for each |
+| **[Webhook signature verifier](https://jitterflow.io/webhooks)** | Check a signature in your browser for Stripe, GitHub, Shopify and 12 more providers |
+| **[Webhook failure simulator](https://jitterflow.io/tools/webhook-failure-simulator)** | A live URL that returns 429s, 500s, timeouts and dropped connections on demand |
+| **[Backoff & jitter calculator](https://jitterflow.io/tools/backoff-calculator)** | See every retry time for exponential backoff with full, equal or decorrelated jitter |
+| **[Retry-After parser](https://jitterflow.io/tools/retry-after-parser)** | Paste a 429 response and see exactly when you can retry |
+| **[HMAC generator](https://jitterflow.io/tools/hmac-generator)** | Sign or verify any payload with SHA-256, SHA-1 or SHA-512 |
+| **[Jitter calculator](https://jitterflow.io/tools/jitter-calculator)** | Estimate the delay window you need for your own rate limits |
 
 <br />
 
